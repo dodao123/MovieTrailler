@@ -1,0 +1,13 @@
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .grid-cols-1 {
+    grid-template-columns: 1fr;
+  }
+}
